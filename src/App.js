@@ -1,12 +1,9 @@
 import React from "react";
 import "./App.css";
+import Router from "./helpers/routers";
 
 function App() {
-  return (
-    <div className="w-full h-[80vh] bg-red-600 flex justify-center items-center ">
-      p
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
