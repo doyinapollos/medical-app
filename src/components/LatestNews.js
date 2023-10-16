@@ -3,7 +3,7 @@ import image1 from "../assets/images/image-1.jpg";
 
 function LatestNews() {
   return (
-    <section className="w-[100%] h-[550px] flex flex-col justify-center items-center bg-white ">
+    <section className="w-[100%] h-auto md:h-[550px] flex flex-col justify-center items-center bg-white ">
       <div className="w-[90%] h-full flex flex-col justify-center items-center ">
         {" "}
         <div className="w-full h-[80px] lg:h-[100px] flex flex-col justify-center items-center bg-nvriLagBlue ">
@@ -15,9 +15,9 @@ function LatestNews() {
             <hr className="w-[80px] lg:w-[90px] border border-nvriLagGray " />
           </div>{" "}
         </div>{" "}
-        <div className="w-full h-[450px] flex justify-around items-start bg-white ">
-          <div className="w-[250px] h-[400px] flex justify-center items-start  ">
-            <div className="w-[90%] h-[80%] flex flex-col justify-around items-center bg-white shadow-xl ">
+        <div className="w-full h-auto flex flex-col justify-around items-center md:h-[450px] md:flex md:flex-row md:justify-around md:items-start bg-white ">
+          <div className="w-[250px] h-[300px] md:h-[400px] flex justify-center items-start  ">
+            <div className="w-[90%] h-[97%] md:h-[80%] flex flex-col justify-around items-center bg-white shadow-xl ">
               <div className="w-[100%] h-[45%] mt-[-10px] flex flex-col justify-center items-center ">
                 <img className="w-full h-full " src={image1} alt="" />
               </div>{" "}
@@ -35,8 +35,8 @@ function LatestNews() {
               </div>{" "}
             </div>{" "}
           </div>{" "}
-          <div className="w-[250px] h-[400px] flex justify-center items-end ">
-            <div className="w-[90%] h-[80%] flex flex-col justify-around items-center bg-white shadow-xl ">
+          <div className="w-[250px] h-[300px] md:h-[400px] flex justify-center items-end ">
+            <div className="w-[90%] h-[97%] md:h-[80%] flex flex-col justify-around items-center bg-white shadow-xl ">
               <div className="w-[100%] h-[45%] mt-[-10px] flex flex-col justify-center items-center ">
                 <img className="w-full h-full " src={image1} alt="" />
               </div>{" "}
