@@ -4,7 +4,8 @@ const AuthRoutes = {
 
 const NonAuthRoutes = {
   home: "/",
-  // mobile: "/mobile",
+  tabletview: "/tabletview",
+  mobile: "/mobile",
 };
 
 export { AuthRoutes, NonAuthRoutes };
